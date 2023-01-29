@@ -1,0 +1,139 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/41/bd/bc/41bdbc634fcab4d8cf67669c100f97c4.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid-container {
+    display: none;
+    grid-template-columns: 1fr;
+    padding: 50px 50px 50px 200px;
+    max-width: 1000px;
+    min-height: 1000px;
+    z-index: 100; 
+}
+
+
+section{
+    border: solid yellow;
+    background-color: black;
+}
+button{
+    height: 50px;
+    width: 100px; 
+    background-color: rgb(0, 0, 0);
+    float: right;
+    color: antiquewhite;
+    border: solid white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+  .grid-item1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    margin: 0%;
+    background-image: url(https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/326517695_548347150676694_4421222196876085919_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFZ2_kRNjtjcNWNI5P-zRcsBZRWdmQYQYMFlFZ2ZBhBg0ZUNsJY6-BRpxQDwwLDgdByyL7QU8ogCckEa0nqooEk&_nc_ohc=cNYbRbSiuCwAX9bEO9S&_nc_ht=scontent.faep9-3.fna&oh=00_AfDNteE9pSxGc2CrcLnZI4qIlITRHs2vkW9b7EAPpO-ENg&oe=63D80325);
+    background-size: 100%;
+ }
+
+ .grid-item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    margin: 0%;
+ }
+
+
+
+h1{
+    font-size: 40px;
+    padding: 7%;
+    font-style: italic;
+    text-align: center;
+    color: orange;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.contenedor .derecha{
+    position: relative;
+    background-color: rgb(255, 149, 28);
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+}
+
+.contenedor .izquierda{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+.textoconfig{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+li{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+h2{
+    color: blue;
+    padding-top: 20px;
+}
+
+h3{
+   color: blue;
+    font-size: 25px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+
+p{
+    border-bottom:  15px solid orange;
+    padding-bottom: 15px;
+}
+.repro{
+    width: 100px;
+    height: 30px;
+}
+
+
+.socialbar{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+    padding: 0%;
+    display: none;    
+}
+
+.socialbar img:hover{
+   height: 60px;
+   width: 60px;
+}
